@@ -6,6 +6,10 @@ A learning project. The question I want to answer: **can I make a web page adapt
 
 The page is a small demo store called Axiom. You type what you like in plain words, for example "I like fried chicken while I watch tech news", and the shelf rearranges to show the blocks that match you.
 
+## Phases
+
+- **Phase 1: category matching with the user's preference.** The user describes what they like. The page matches that sentence to the store categories (`tech`, `home`, `food`) and shows the matching blocks. This is the current state of the project.
+
 ## User flow
 
 1. **Open the page.** The model starts downloading in the background. The header shows the download progress. Until you type anything, the shelf shows the full catalogue.
