@@ -9,6 +9,7 @@ The page is a small demo store called Axiom. You type what you like in plain wor
 ## Phases
 
 - **Phase 1: category matching with the user's preference.** The user describes what they like. The page matches that sentence to the store categories (`tech`, `home`, `food`) and shows the matching blocks. This is the current state of the project.
+- **Phase 1.1 (planned): real product data.** Replace the hardcoded blocks in `src/data/blocks.ts` with products from [DummyJSON](https://dummyjson.com/products), for example `https://dummyjson.com/products/category/groceries?limit=0&select=title,description,price,tags,thumbnail`. Map its categories to ours: `tech` = `smartphones`, `laptops`, `tablets`, `mobile-accessories`; `home` = `furniture`, `home-decoration`, `kitchen-accessories`; `food` = `groceries`.
 
 ## User flow
 

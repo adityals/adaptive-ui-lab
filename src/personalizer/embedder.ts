@@ -55,5 +55,6 @@ async function scoreCategories(preference: string): Promise<number[]> {
 }
 
 export async function pickCategories(preference: string): Promise<Category[]> {
-  return rankCategories(await scoreCategories(preference));
+  const scoreCat = await scoreCategories(preference);
+  return rankCategories(scoreCat);
 }
